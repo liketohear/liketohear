@@ -1,0 +1,271 @@
+/*
+Copyright 2019 Fraunhofer IDMT
+All rights reserved
+
+This file is part of the like2hear project
+
+like2hear is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+like2hear is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with like2hear.  If not, see <http://www.gnu.org/licenses/>.
+
+
+@author: Tobias Bruns <tobias.bruns@idmt.fraunhofer.de>
+@author: Stephanus Volke <stephanus.volke@idmt.fraunhofer.de>
+@version 1.0
+@date: 19.11.2018
+2019 Fraunhofer IDMT, Oldenburg
+*/
+
+
+:root {
+    --main-height: calc(72vh);
+    --main-width: calc(100vw);
+    --circle-width: calc(var(--main-width) );
+    --circle-height: calc(var(--main-height) );
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+	overflow: hidden;
+}
+body {
+    display: flex;
+    /*min-height: 80vh;*/
+    flex-direction: column;
+    font-family: sans-serif;
+    overflow: hidden;
+    position: fixed;
+
+}
+
+
+header {
+    background: #f15a24;
+    color: white;
+    height: 50px;
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+main {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+footer {
+    background: #f15a24;
+    color: white;
+    height: 50px;
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+
+/*footer {
+    flex-grow: 0;
+    text-align: center;
+    background: #f15a24;
+    height: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} */
+
+
+
+#outer-circle {
+    background-color: #FAFAFA;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:var(--main-height);
+	width:var(--main-width);
+}
+
+#circle {
+    position: relative;
+	border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle-bg {
+    position: relative;
+	border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sound-handle {
+    position: relative;
+    background: #f15a24;
+    width: calc(0.2*var(--main-height));
+    height: calc(0.2*var(--main-height));
+    border-radius: 50%;
+    left: calc(50% - 35px);
+    top: calc(50% - 35px);
+    box-shadow: 0 0 0.5vh;
+}
+
+#sound-box {
+    width: 99%;
+    height: 99%;
+}
+
+.button {
+  padding: 5px 5px;
+  margin-right: 30px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  color: #f15a24;
+  background-color: #fff;
+  border: none;
+  border-radius: 6px;
+
+}
+
+
+.button:active {
+  background-color: #d2410c;
+}
+
+.bg {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    /*padding: 10px*/;
+    border: solid 10px transparent;
+    background-repeat: no-repeat;
+	/* background: #eb6a0a; */
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.bg-top {
+    top: 0;
+    right: 50%;
+    background-image: url('images/highvol.png');
+    background-size: auto 30%;
+    background-position: right top;
+}
+
+.bg-bottom {
+    bottom: 0;
+    right: 50%;
+    background-image: url('images/lowvol.png');
+    background-size: auto 24%;
+    background-position: right bottom;
+}
+
+.bg-left {
+    left: 0%;
+    top:45%;
+    background-position: left top;
+    background-image: url('images/bass.png');
+    background-size: auto 25%;
+}
+
+.bg-right {
+    right: 0;
+    top: 40%;
+    background-position: right top;
+    background-image: url('images/treble.png');
+    background-size: auto 60%;
+}
+
+ /* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: darkgrey;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #fff;
+}
+
+input:checked + .slider:before {
+  background-color: #f15a24;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #fff;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 10px;
+}
+
+.slider.round:before {
+  border-radius: 30%;
+}

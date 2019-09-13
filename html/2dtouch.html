@@ -1,0 +1,79 @@
+<!--
+Copyright 2019 Fraunhofer IDMT, Oldenburg
+All rights reserved
+
+This file is part of the like2hear project
+
+like2hear is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+like2hear is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with like2hear.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!--
+
+2DTouch Control Web GUI to Like To Hear Framework
+
+@author Tobias Bruns	<tobias.bruns@idmt.fraunhofer.de>
+@author Stephanus Volke <stephanus.volke@idmt.fraunhofer.de>
+@version 1.0
+@date 19.11.2018
+2019 Fraunhofer IDMT, Oldenburg
+
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Like To Hear! Interface</title>
+
+  <link rel="stylesheet" href="styles_flex.css">
+</head>
+
+<body>
+  <header id="header">
+    <h2>Like To Hear!</h2>	
+  </header>
+  <main id="main" data-userid="{{user_id}}">
+	
+    <div id="outer-circle">
+			<div class="bg bg-top"></div>
+			<div class="bg bg-left"></div>
+			<div class="bg bg-right"></div>
+			<div class="bg bg-bottom"></div>
+
+			<div id="sound-box">
+			<div id="sound-handle"></div>
+			</div>
+     
+    </div>
+  </main>
+  
+  <footer id="header">
+  	<button id="reset-handle" class="button">Reset</button>
+	<p style="margin-right: 10px" > Active: Off </p>
+  	<label class="switch">
+	  <input id="onoff-handle" type="checkbox" checked>
+	  <span class="slider round"></span>
+	</label>
+	<p style="margin-left: 10px" > On </p>
+	<!-- <button id="onoff-handle" class="button">On/Off</button> -->
+  </footer>
+  
+  <script type="text/javascript" src="control.js"></script>
+</body>
+
+</html>
