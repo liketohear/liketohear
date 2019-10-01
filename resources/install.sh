@@ -1,3 +1,4 @@
+#!/bin/bash
 
 cd ../../
 
@@ -23,7 +24,7 @@ sudo cp dhcpcd.conf /etc/dhcpcd.conf
 echo "system needs to be restarted, press y to continue"
 
 read message
-if [[ $message == y* ]]
+if [[ $message == y* ]];
 then
     sudo reboot
 else
