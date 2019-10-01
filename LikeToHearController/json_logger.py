@@ -67,3 +67,4 @@ class JsonLoggerHandler():
         self._fid.write(json.dumps(log_info) + '\n')
         # flush fid to update file, so data is also logged before program crash
         self._fid.flush()
+        os.fsync(self._fid.fileno())
