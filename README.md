@@ -15,7 +15,6 @@ First, a few words of warning:
 Hearing aids are medical products! You use these instructions and the software at you own risk. The described device can produce very high sound levels. Exposure to high sound levels can permanently damage your hearing! You are responsible for the configuration of the device and the protection of your hearing.
 Please read about the consequences of noise induced hearing loss before proceeding to the fun part: https://www.nidcd.nih.gov/health/noise-induced-hearing-loss
 
-
 Main ingredients
 Hardware:
 * Binaural Microphones/Earphones
@@ -24,15 +23,14 @@ Hardware:
 * Low-latency sound card
 * USB power bank
 * Bluetooth remote control
+* USB stick
 
-* Software:
+* Third party software:
   * openMHA
   * Raspbian
   * JACK
   * hostapd
   * OpenSSH
-  * liketohear control app
-
 
 # Main characteristics
 Free software: Control is yours, you can change every single bit of it!
