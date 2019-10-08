@@ -17,6 +17,7 @@ Please read about the consequences of noise induced hearing loss before proceedi
 
 Main ingredients
 Hardware:
+
 * Binaural Microphones/Earphones
 * Microphone pre-amplifier
 * Raspberry Pi 3 model B
@@ -25,12 +26,12 @@ Hardware:
 * Bluetooth remote control
 * USB stick
 
-* Third party software:
-  * openMHA
-  * Raspbian
-  * JACK
-  * hostapd
-  * OpenSSH
+Third party software:
+ * openMHA
+ * Raspbian
+ * JACK
+ * hostapd
+ * OpenSSH
 
 # Main characteristics
 Free software: Control is yours, you can change every single bit of it!
