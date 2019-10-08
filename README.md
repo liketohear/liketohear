@@ -1,9 +1,9 @@
 
 # liketohear
 
-This repository holds the information to control the mobile prototype of a hearing aid based on the open Master Hearing Aid (openMHA), a free software platform for real-time audio signal processing.
+This repository holds the information for an web app control of the mobile openMHA hearing aid prototype.
 
-We developed this prototype for the citizen science project "Hear How You Like To Hear"  at the Fraunhofer IDMT Oldenburg, funded by the BMBF.
+This prototype is developed in he framework of the citizen science project ["Hear How You Like To Hear"  at the Fraunhofer IDMT Oldenburg](https://www.idmt.fraunhofer.de/de/institute/projects-products/projects/liketohear.html), funded by the BMBF. 
 Corresponding author: Peggy Sylopp
 
 # Aims
