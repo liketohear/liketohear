@@ -1,9 +1,9 @@
 
 # liketohear
 
-This repository holds the information for a framework with intuitive gui control for self-fitting the [mobile openMHA hearing aid prototype](https://github.com/m-r-s/hearingaid-prototype). The framework includes a web app, logs audio level analysis and self-fitting parameters.
+This repository holds the information for a framework with intuitive gui control for self-fitting the [mobile openMHA hearing aid prototype](https://github.com/m-r-s/hearingaid-prototype). The framework includes a web app, logs audio level analysis and self-fitting parameters. 
 
-The liketohearprototype is developed in he framework of the citizen science project ["Hear How You Like To Hear"  at the Fraunhofer IDMT Oldenburg](https://www.idmt.fraunhofer.de/de/institute/projects-products/projects/liketohear.html), funded by the BMBF. 
+The liketohear prototype is developed in he framework of the citizen science project ["Hear How You Like To Hear"  at the Fraunhofer IDMT Oldenburg](https://www.idmt.fraunhofer.de/de/institute/projects-products/projects/liketohear.html), funded by the BMBF. 
 Corresponding author: Peggy Sylopp
 
 # Aims
@@ -24,15 +24,15 @@ Hardware:
 * Low-latency sound card
 * USB power bank
 * Bluetooth remote control
+
 * Software:
   * openMHA
   * Raspbian
   * JACK
   * hostapd
   * OpenSSH
-  * GNU/Octave
   * liketohear control app
-festival-lite
+
 
 # Main characteristics
 Free software: Control is yours, you can change every single bit of it!
