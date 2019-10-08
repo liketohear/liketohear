@@ -1,13 +1,14 @@
 
 # liketohear
 
-This repository holds the information for an intuitive gui control for self-fitting the [mobile openMHA hearing aid prototype](https://github.com/m-r-s/hearingaid-prototype). The control is integrated in an web app and additionally logs audio level analysis and self-fitting parameters.
+This repository holds the information for a framework with intuitive gui control for self-fitting the [mobile openMHA hearing aid prototype](https://github.com/m-r-s/hearingaid-prototype). The framework includes a web app, logs audio level analysis and self-fitting parameters.
 
-This prototype is developed in he framework of the citizen science project ["Hear How You Like To Hear"  at the Fraunhofer IDMT Oldenburg](https://www.idmt.fraunhofer.de/de/institute/projects-products/projects/liketohear.html), funded by the BMBF. 
+The liketohearprototype is developed in he framework of the citizen science project ["Hear How You Like To Hear"  at the Fraunhofer IDMT Oldenburg](https://www.idmt.fraunhofer.de/de/institute/projects-products/projects/liketohear.html), funded by the BMBF. 
 Corresponding author: Peggy Sylopp
 
 # Aims
-The prototype was deliberately designed for the self-fitting field research using affordable consumer hardware and open source software. The aim is to lower the entry barrier for hearing aid development and facilitate any interested person to get actively involved in testing and improving hearing devices; empowering power-users.
+The prototype was designed for intuitive app control in everyday acoustic environments, accessible and operable for everyone.
+This is realized by using affordable consumer hardware and open source software. The aim is to lower the entry barrier for hearing aid development and facilitate any interested person to get actively involved in testing and improving hearing devices; to empowering power-users. 
 
 # Warning and disclaimer
 First, a few words of warning:
