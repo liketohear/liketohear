@@ -29,7 +29,7 @@ Hardware:
 Third party software:
  * openMHA
  * Raspbian
- * [JACK]()
+ * [JACK](https://github.com/jackaudio)
  * hostapd
  * OpenSSH
 
