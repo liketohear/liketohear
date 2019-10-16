@@ -49,6 +49,7 @@ Sum of all components is about 250 €
   * logging of binaurals sound sceneries on USB stick
   * based on presets
   * Pre-configured SD-card image (~500 Mb) available for download!
+  * No proper shut down of OS necessary: Overlay makes power cut possible without affecting the software installation
   * Pre-calibrated for most "transparent" acoustic impression
   * Autostart on boot
   * Several hours of autonomy
