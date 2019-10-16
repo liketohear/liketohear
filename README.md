@@ -26,7 +26,6 @@ Hardware:
 * Raspberry Pi 3 model B
 * Low-latency sound card
 * USB power bank
-* Bluetooth remote control
 * USB stick
 
 Third party software:
