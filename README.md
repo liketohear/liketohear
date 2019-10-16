@@ -1,7 +1,7 @@
 
 # liketohear
 
-![Image](https://user-images.githubusercontent.com/40722995/66922277-0896c480-f027-11e9-9145-69b6794106d7.jpg)
+![Image](https://user-images.githubusercontent.com/40722995/66923306-d4bc9e80-f028-11e9-8f9a-f6e8236fe91b.jpg)
 
 This repository holds the information for a framework with intuitive gui control for self-fitting the [mobile openMHA hearing aid prototype](https://github.com/m-r-s/hearingaid-prototype). The framework includes a web app for sound control, logs audio level analysis and self-fitting parameters. 
 
