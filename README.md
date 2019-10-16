@@ -42,12 +42,11 @@ Looks like wearing in-ear headphones
 Whole setup fits in a belt bag
 Sum of all components is about 250 €
 
-* Some cool features
-  * very intuitive control - no technical affinity necessary
-  * uses web-app
+# Some cool features
+  * very intuitive control by web app - no technical affinity necessary
   * self-fitting
-  * logging of binaurals sound sceneries
-  * based on preset
+  * logging of binaurals sound sceneries on USB stick
+  * based on presets
   * Pre-configured SD-card image (~500 Mb) available for download!
   * Pre-calibrated for most "transparent" acoustic impression
   * Autostart on boot
