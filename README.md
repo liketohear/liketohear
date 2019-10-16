@@ -53,12 +53,8 @@ Sum of all components is about 250 €
   * Pre-calibrated for most "transparent" acoustic impression
   * Autostart on boot
   * Several hours of autonomy
-  * Remote control via Bluetooth game pad
   * Connect via WiFi to the hearing aid prototype
-  * Simulate impaired hearing with threshold simulating noise
   * Fit it to your hearing thresholds
-  * Fit it to arbitrary hearing profiles using openMHA's graphical fitting interface
-  * Extend openMHA with own algorithms
   * Combine it with any jack-based software (play, process, or record)
 
 # Instructions
