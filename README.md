@@ -5,7 +5,7 @@
 
 This repository holds the information for a framework with intuitive gui control via web app for self-fitting the [mobile openMHA hearing aid prototype](https://github.com/m-r-s/hearingaid-prototype). The framework includes a web app for sound control, logs audio level analysis and self-fitting parameters. 
 
-The liketohear prototype is developed in he framework of the citizen science project ["Hear How You Like To Hear"  at the Fraunhofer IDMT Oldenburg](https://www.idmt.fraunhofer.de/de/institute/projects-products/projects/liketohear.html), funded by the BMBF. 
+The liketohear prototype is developed in he framework of the citizen science project ["Hear How You Like To Hear"  at the Fraunhofer IDMT Oldenburg](https://www.idmt.fraunhofer.de/de/institute/projects-products/projects/liketohear.html), funded by the [BMBF](https://www.bmbf.de/). 
 
 Corresponding author: Peggy Sylopp
 
@@ -29,7 +29,8 @@ Hardware:
 * USB stick
 
 Third party software:
- * openMHA
+ * [A mobile hearing aid prototype based on openMHA](https://github.com/m-r-s/hearingaid-prototype)
+ * [openMHA](https://github.com/HoerTech-gGmbH/openMHA/)
  * Raspbian
  * [JACK](https://github.com/jackaudio)
  * hostapd
@@ -40,15 +41,14 @@ Free software: Control is yours, you can change every single bit of it!
 Efficient real-time implementations of research-approved hearing algorithms (c.f. openMHA at Github)
 Competitively low delays: Less than 5ms
 Looks like wearing in-ear headphones
-Whole setup fits in a belt bag
-Sum of all components is about 250 €
+Model for 3d print available
 
 # Some cool features
   * very intuitive control by web app - no technical affinity necessary
   * self-fitting
   * logging of binaurals sound sceneries on USB stick
   * based on presets
-  * Pre-configured SD-card image (~500 Mb) available for download!
+  * Pre-configured SD-card image (~500 Mb) available for download
   * No proper shut down of OS necessary: Overlay makes power cut possible without affecting the software installation
   * Pre-calibrated for most "transparent" acoustic impression
   * Autostart on boot
