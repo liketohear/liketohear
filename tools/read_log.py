@@ -34,8 +34,8 @@ class read_log():
                         yield [line_object['data']['presetx'], line_object['data']['presety']]
         
 if __name__ == '__main__':
-    user_levels = read_log('levels','bth','user_interface.log')
-    user_presets = read_log('presets','bth','user_interface.log')
+    user_levels = read_log('levels',[],'user_interface.log')
+    user_presets = read_log('presets',[],'user_interface.log')
     dataset = 0
     idx = 0
     out = []
