@@ -58,5 +58,5 @@ Model for 3d print available
   * Combine it with any jack-based software (play, process, or record)
 
 # Instructions
-This page is only a teaser The files in this repository only contain the employed openMHA configuration file, a start script, and some example configuration files. The [actual instructions](https://github.com/liketohear/liketohear/wiki/liketohear) are deployed in the corresponding wiki. Feel free to test them and contribute. Be sure to read the openMHA documentation (pdf files) if you want to dig deeper into signal processing for hearing aids.
+This page is only a teaser The files in this repository only contain the employed openMHA configuration file, a start script, and some example configuration files. The [actual instructions](https://github.com/liketohear/liketohear/wiki) are deployed in the corresponding wiki. Feel free to test them and contribute. Be sure to read the openMHA documentation (pdf files) if you want to dig deeper into signal processing for hearing aids.
 
