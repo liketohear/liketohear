@@ -55,7 +55,7 @@ class openMHACtrl(object):
         self._presety = 5
         
         self.userName = "DefaultUser"
-        self.setLog = True
+        self.setLog = False
         
         # loading presets from file
         if os.path.exists('gains.json'):
