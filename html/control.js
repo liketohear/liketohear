@@ -219,7 +219,7 @@ var resethandle = document.getElementById("reset-handle");
 var onoffhandle = document.getElementById("onoff-handle");
 var user_id = document.getElementById("main").dataset.userid;
 
-var socket = new Socket("172.24.1.1", '8888', user_id, soundhandle);
+var socket = new Socket("169.254.47.164", '8888', user_id, soundhandle);
 //var socket = new Socket("127.0.0.1", '8888', user_id, soundhandle); 
 var sound = new Soundformer(soundbox, soundhandle);
 var menu = new Menu(onoffhandle,resethandle, socket);
