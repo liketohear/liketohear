@@ -18,7 +18,16 @@ First, a few words of warning:
 Hearing aids are medical products! You use these instructions and the software at you own risk. The described device can produce very high sound levels. Exposure to high sound levels can permanently damage your hearing! You are responsible for the configuration of the device and the protection of your hearing.
 Please read about the consequences of noise induced hearing loss before proceeding to the fun part: https://www.nidcd.nih.gov/health/noise-induced-hearing-loss
 
-Main ingredients
+# Installing
+* Download the raspbian buster distribution here:
+* Write the image to sd card (e.g. using `dd if=2020-08-20-raspios-buster-armhf-lite.img of=/dev/sdb bs=1M` )
+* Put the SD-Card in your Raspberry Pi Model 3 or higher and connect ethernet
+* Boot and install git (`sudo apt-get install git`)
+* Get the sources:  `git clone https://github.com/liketohear/liketohear'
+* Change directory to `liketohear/resources` and run `./install.sh`
+* reboot
+
+# Main ingredients
 Hardware:
 
 * Binaural Microphones/Earphones
@@ -31,7 +40,7 @@ Hardware:
 Third party software:
  * [A mobile hearing aid prototype based on openMHA](https://github.com/m-r-s/hearingaid-prototype)
  * [openMHA](https://github.com/HoerTech-gGmbH/openMHA/)
- * Raspbian
+ * [Raspbian](https://www.raspbian.org/)
  * [JACK](https://github.com/jackaudio)
  * hostapd
  * OpenSSH
@@ -57,6 +66,7 @@ Model for 3d print available
   * Fit it to your hearing thresholds
   * Combine it with any jack-based software (play, process, or record)
 
-# Instructions
-This page is only a teaser The files in this repository only contain the employed openMHA configuration file, a start script, and some example configuration files. The [actual instructions](https://github.com/liketohear/liketohear/wiki) are deployed in the corresponding wiki. Feel free to test them and contribute. Be sure to read the openMHA documentation (pdf files) if you want to dig deeper into signal processing for hearing aids.
+# Documentation & Instructions
+Further documentation and instructions can be found in the corresponding [Wiki](https://github.com/liketohear/liketohear/wiki). Feel free to test them and contribute. 
+Please also see documentation of the [openMHA](http://www.openmha.org/documentation/) if you want to dig deeper into hearing aid signal processing.
 
