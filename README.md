@@ -23,11 +23,11 @@ Please read about the consequences of noise induced hearing loss before proceedi
 * Download the raspbian buster distribution [here](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-lite.zip):
 * Unzip and write the image to sd card (e.g. using `dd if=2020-08-20-raspios-buster-armhf-lite.img of=/dev/sdb bs=1M` )
 * Put the SD-Card in your Raspberry Pi Model 3 or higher and connect ethernet 
-* Boot (username: pi, password: raspberry) and install git (`sudo apt-get install git`)
+* Boot (default username: pi, password: raspberry) and install git (`sudo apt-get install git`)
 * Get the sources:  `git clone https://github.com/liketohear/liketohear'
 * Change directory to `liketohear/resources` and run `./install.sh`
-* confirm realtime mode with jackd2
-* reboot
+* Confirm realtime mode with jackd2
+* Reboot
 
 # Main ingredients
 Hardware:
