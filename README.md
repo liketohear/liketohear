@@ -21,9 +21,9 @@ Please read about the consequences of noise induced hearing loss before proceedi
 
 # Installing
 * Download the raspbian buster distribution [here](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-lite.zip):
-* Write the image to sd card (e.g. using `dd if=2020-08-20-raspios-buster-armhf-lite.img of=/dev/sdb bs=1M` )
-* Put the SD-Card in your Raspberry Pi Model 3 or higher and connect ethernet
-* Boot and install git (`sudo apt-get install git`)
+* Unzip and write the image to sd card (e.g. using `dd if=2020-08-20-raspios-buster-armhf-lite.img of=/dev/sdb bs=1M` )
+* Put the SD-Card in your Raspberry Pi Model 3 or higher and connect ethernet 
+* Boot (username: pi, password: raspberry) and install git (`sudo apt-get install git`)
 * Get the sources:  `git clone https://github.com/liketohear/liketohear'
 * Change directory to `liketohear/resources` and run `./install.sh`
 * reboot
@@ -65,7 +65,7 @@ Model for 3d print available
   * Several hours of autonomy
   * Connect via WiFi to the hearing aid prototype
   * Fit it to your hearing thresholds
-  * Combine it with any jack-based software (play, process, or record)
+  * Combine it with any jack-based software (play, process, or record) 
 
 # Documentation & Instructions
 Further documentation and instructions can be found in the corresponding [Wiki](https://github.com/liketohear/liketohear/wiki). Feel free to test them and contribute. 
