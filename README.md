@@ -26,6 +26,7 @@ Please read about the consequences of noise induced hearing loss before proceedi
 * Boot (username: pi, password: raspberry) and install git (`sudo apt-get install git`)
 * Get the sources:  `git clone https://github.com/liketohear/liketohear'
 * Change directory to `liketohear/resources` and run `./install.sh`
+* confirm realtime mode with jackd2
 * reboot
 
 # Main ingredients
