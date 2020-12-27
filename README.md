@@ -36,8 +36,8 @@ OR (unstable app connection)
 * Get the sources:  `git clone https://github.com/liketohear/liketohear'
 * Change directory to `liketohear/resources` and run `./install.sh`
 * Confirm realtime mode with jackd2
-* Reboot
-* connect your smartphone to the raspberry wifi (SSID: liketohear-4, password: liketohear-4)
+* Reboot (username: pi, password: liketohear)
+* connect your smartphone to the raspberry wifi (SSID: liketohear-wifi-2, password: liketohear-wifi-2)
 * open browser and type http://172.24.1.1:8888
 
 # Main ingredients
