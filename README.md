@@ -37,7 +37,7 @@ OR (unstable app connection)
 * Confirm realtime mode with jackd2
 * Reboot
 * connect your smartphone to the raspberry wifi (SSID: liketohear-4, password: liketohear-4)
-* open browser and type 172.24.1.1:8888
+* open browser and type http://172.24.1.1:8888
 
 # Main ingredients
 Hardware:
