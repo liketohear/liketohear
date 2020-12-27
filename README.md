@@ -24,7 +24,7 @@ Please read about the consequences of noise induced hearing loss before proceedi
 * write the image to sd card (e.g. using on Ubuntu `dd if=liketohear-04_shrink.img of=/dev/sdb bs=1M`)
 * plug USB stick: SanDisk Cruzer Fit USB
 * Put the SD-Card in your Raspberry Pi Model 3 and boot (username: pi. password: like2hear)
-* connect your smartphone to the raspberry wifi (SSID: like2hear-4, password: like2hear-4)
+* connect your smartphone to the raspberry wifi (SSID: like2hear-wifi-4, password: like2hear-wifi-4)
 * open browser and type http://172.24.1.1:8888
 
 OR (unstable app connection)
