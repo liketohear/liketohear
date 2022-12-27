@@ -54,7 +54,7 @@ sudo echo 'rsn_pairwise=CCMP' | sudo tee -a /etc/hostapd/hostapd.conf
 
 #sudo apt dist-upgrade
 sudo apt install -y build-essential haveged ssh mosh byobu tig htop nmon libncurses-dev
-sudo apt-get install -y jackd2 libjack-jackd2-dev qjackctl openjdk-8-jdk
+sudo apt-get install -y jackd2 libjack-jackd2-dev qjackctl openjdk-11-jdk
 sudo apt-get install -y libsndfile-dev
 sudo apt-get install -y portaudio19-dev 
 
@@ -75,7 +75,7 @@ cd ..
 
 #octave macht feedback-noise für hearingaid-prototype 
 sudo apt-get install -y octave
-sudo apt-get install -y python3.5
+sudo apt-get install -y python3
 sudo apt-get install -y python3-tornado
 git clone https://github.com/liketohear/hearingaid-prototype
 
