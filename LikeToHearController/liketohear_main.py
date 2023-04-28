@@ -58,7 +58,7 @@ debug = 0;                              # if debug is set to 1 no connection to 
 MAX_WAIT_SECONDS_BEFORE_SHUTDOWN = 3    # seconds to wait after term signal
 openMHAInstance =  openMHACtrl()        # initializing openMHA_2DCtrl.py instance
 onoffFlag = 1
-commander = "/home/pi/hearingaid-prototype/commandqueue"
+commander = "/home/liketohear/hearingaid-prototype/commandqueue"
 
 # html handler for showing the whole webpage
 class MainHandler(tornado.web.RequestHandler):
