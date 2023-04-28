@@ -20,7 +20,7 @@ Hearing aids are medical products! You use these instructions and the software a
 Please read about the consequences of noise induced hearing loss before proceeding to the fun part: https://www.nidcd.nih.gov/health/noise-induced-hearing-loss
 
 # Installing
-* Download sd card image [here](https://seafile.idmt.fraunhofer.de/f/c1def76f9ab04495b421/?dl=1)
+* Download sd card image [here](https://seafile.idmt.fraunhofer.de/f/fd4ed2e8cc884880acf0/?dl=1)
 * Install the image using [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
     * Under operating system select own image
 * plug USB stick: SanDisk Cruzer Fit USB
