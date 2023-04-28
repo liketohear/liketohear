@@ -21,7 +21,8 @@ Please read about the consequences of noise induced hearing loss before proceedi
 
 # Installing
 * Download sd card image [here](https://seafile.idmt.fraunhofer.de/f/c1def76f9ab04495b421/?dl=1)
-* Install the image using [Raspberry Pi Imager](https://www.raspberrypi.com/software/) (select operating system -> own image)
+* Install the image using [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+    * Under operating system select own image
 * plug USB stick: SanDisk Cruzer Fit USB
 * Put the SD-Card in your Raspberry Pi Model 3 and boot (username: pi. password: like2hear)
 * connect your smartphone to the raspberry wifi (SSID: like2hear-wifi-2, password: like2hear-wifi-2)
@@ -29,7 +30,9 @@ Please read about the consequences of noise induced hearing loss before proceedi
 
 OR from draft user script
 
-* Install the latest version of raspberry os lite (64 bit) with [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+* Install the latest version of raspberry os with [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+   * Under operating system go to Raspberry Pi OS other and select Raspberry Pi OS lite (64-bit)
+   * Under advanced options change hostname to liketohear
 * Put the SD-Card in your Raspberry Pi Model 3 or higher and connect ethernet 
 * Boot (default username: pi, password: raspberry) and install git (`sudo apt-get install git`)
 * Get the sources:  `git clone https://github.com/liketohear/liketohear'
