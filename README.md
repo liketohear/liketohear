@@ -21,24 +21,23 @@ Please read about the consequences of noise induced hearing loss before proceedi
 
 # Installing
 * Download sd card image [here](https://seafile.idmt.fraunhofer.de/f/c1def76f9ab04495b421/?dl=1)
-* write the image to sd card (e.g. using on Ubuntu `dd if=liketohear-04_shrink.img of=/dev/sdb bs=1M`)
+* Install the image using [Raspberry Pi Imager](https://www.raspberrypi.com/software/) (select operating system -> own image)
 * plug USB stick: SanDisk Cruzer Fit USB
 * Put the SD-Card in your Raspberry Pi Model 3 and boot (username: pi. password: like2hear)
-* connect your smartphone to the raspberry wifi (SSID: like2hear-wifi-4, password: like2hear-wifi-4)
-* open browser and type http://172.24.1.1:8888
+* connect your smartphone to the raspberry wifi (SSID: like2hear-wifi-2, password: like2hear-wifi-2)
+* open browser and type http://liketohear.local:8888
 
-OR (unstable app connection)
+OR from draft user script
 
-* Download the raspbian buster distribution [here](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-lite.zip):
-* Unzip and write the image to sd card (e.g. using `dd if=2020-08-20-raspios-buster-armhf-lite.img of=/dev/sdb bs=1M` )
+* Install the latest version of raspberry os lite (64 bit) with [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 * Put the SD-Card in your Raspberry Pi Model 3 or higher and connect ethernet 
 * Boot (default username: pi, password: raspberry) and install git (`sudo apt-get install git`)
 * Get the sources:  `git clone https://github.com/liketohear/liketohear'
 * Change directory to `liketohear/resources` and run `./install.sh`
 * Confirm realtime mode with jackd2
-* Reboot (username: pi, password: liketohear)
+* Reboot (username: liketohear, password: liketohear)
 * connect your smartphone to the raspberry wifi (SSID: liketohear-wifi-2, password: liketohear-wifi-2)
-* open browser and type http://172.24.1.1:8888
+* open browser and type http://liketohear.local:8888
 
 # Main ingredients
 Hardware:
